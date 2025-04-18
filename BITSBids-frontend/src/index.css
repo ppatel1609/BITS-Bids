@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1eaff;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.custom-bg {
+  background-color: #f1eaff;
+} 
+
+.text-color {
+  color: #a11140;
+}
+
+.text-color1 {
+  color: #f1eaff;
+}
+
+.border-color {
+  border-color: #f2bed1;
+}
+
+.custom-bg-text {
+  color:#12123D;
+}
+
+.bg-color {
+  background-color: #e19898;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card  {
+  transform: scale(1.02);
+
+}
+
+.navbar {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -94px !important;  /* 50% of your logo width */
+  display: block;
+  height: 100%;
+  width: 10%;
+  margin-top: -20px;
+}
+
+
+
+.search{
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input{
+
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+
+
+}
+
+
+.search input:focus{
+
+  box-shadow: none;
+  border: 2px solid blue;
+
+
+}
+
+.search .fa-search{
+
+  position: absolute;
+  top: 20px;
+  left: 16px;
+
+}
+
+.search button{
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+
+}
+.search-bar
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.chat
+{
+  border: 2px solid #12123D;
+}
